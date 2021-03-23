@@ -12,13 +12,16 @@ export class RecipesService {
       id: 'r1',
       title: 'Schnitzel',
       imageUrl: 'https://www.thespruceeats.com/thmb/cckc3_4QUQ79kSFhcLPM8xg9F3g=/3797x2848/smart/filters:no_upscale()/wiener-schnitzel-recipe-1447089-Hero-5b587d6c46e0fb0071b0059d.jpg',
-      ingredients: ['French Fries', 'Meat', 'Salad']
+      ingredients: ['French Fries', 'Meat', 'Salad'],
+      review: 'A schnitzel is a thin slice of meat fried in fat. The meat is usually thinned by pounding with a meat tenderizer'
+
     },
     {
       id: 'r2',
       title: 'Spaghetti',
       imageUrl: 'https://www.spendwithpennies.com/wp-content/uploads/2019/03/Spaghetti-and-Meatballs-SpendWithPennies-4.jpg',
-      ingredients: ['Spaghetti', 'Meat', 'Tomatoes']
+      ingredients: ['Spaghetti', 'Meat', 'Tomatoes'],
+      review: 'Spaghetti is a long, thin, solid, cylindrical pasta. It is a staple food of traditional Italian cuisine.'
     }
   ];
 
