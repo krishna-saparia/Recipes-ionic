@@ -5,15 +5,17 @@ import { FormsModule } from '@angular/forms';
 import { IonicModule } from '@ionic/angular';
 
 import { RecipesPageRoutingModule } from './recipes-routing.module';
-
 import { RecipesPage } from './recipes.page';
-
+import { StarRatingModule } from 'ionic4-star-rating';
+import { ReactiveFormsModule} from '@angular/forms';
 @NgModule({
   imports: [
     CommonModule,
     FormsModule,
     IonicModule,
-    RecipesPageRoutingModule
+    ReactiveFormsModule,
+    RecipesPageRoutingModule,
+    StarRatingModule
   ],
   declarations: [RecipesPage]
 })

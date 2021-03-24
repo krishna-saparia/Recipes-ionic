@@ -12,6 +12,11 @@
       </ion-thumbnail>
       <ion-label> {{r.title }}</ion-label>
       <!--<ion-avatar><img src={{r.imageUrl}}></ion-avatar> -->
+      <form [formGroup]="customForm">
+      <ionic4-star-rating #rating activeIcon="ios-star" defaultIcon="ios-star-outline" activeColor="#488aff"
+        defaultColor="#f4f4f4" readonly="false" rating="3" fontSize="32px" (ratingChanged)="logRatingChange($event)">
+    </ionic4-star-rating>
+  </form>
     </ion-item>
   </ion-list>
 </ion-content>
