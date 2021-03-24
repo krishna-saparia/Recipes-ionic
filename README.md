@@ -1,3 +1,8 @@
+Add a review feature
+
+Integrated rating component
+
+
 # ionic-course
 ## Check if Ionic is installed
 `ionic -v`
