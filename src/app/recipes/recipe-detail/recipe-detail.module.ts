@@ -7,7 +7,7 @@ import { IonicModule } from '@ionic/angular';
 import { RecipeDetailPageRoutingModule } from './recipe-detail-routing.module';
 
 import { RecipeDetailPage } from './recipe-detail.page';
-
+// import { RatingComponent } from '../../rating/rating.component';
 @NgModule({
   imports: [
     CommonModule,
